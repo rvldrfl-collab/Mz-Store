@@ -1,0 +1,400 @@
+<!DOCTYPE html><html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0b132b">
+<meta name="description" content="Rivesson Store Mz — Descobre acessórios eletrónicos, auriculares, smartwatches e muito mais. Encomenda pelo WhatsApp e combina o pagamento na entrega.">
+
+<title>Rivesson Store Mz | Loja de Eletrónicos</title>
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}">
+
+</head><body><!-- CABEÇALHO -->
+<header class="cabecalho">
+
+    <div class="cabecalho-conteudo">
+
+        <a href="/" class="logotipo">
+            <span class="logo-simbolo">R</span>
+
+            <span class="logo-texto">
+                <strong>Rivesson</strong>
+                <small>STORE MZ</small>
+            </span>
+        </a>
+
+        <a
+            href="https://wa.me/258858299689?text=Ol%C3%A1%21%20Entrei%20em%20contacto%20atrav%C3%A9s%20da%20Rivesson%20Store%20Mz."
+            class="botao-contacto"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Contactar
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- NAVEGAÇÃO -->
+<nav class="navegacao">
+
+    <a href="#inicio">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre nós</a>
+    <a href="#contactos">Contactos</a>
+
+</nav>
+
+
+<main>
+
+    <!-- APRESENTAÇÃO -->
+    <section class="hero" id="inicio">
+
+        <div class="hero-conteudo">
+
+            <span class="etiqueta">
+                TECNOLOGIA AO TEU ALCANCE
+            </span>
+
+            <h1>
+                Descobre a tecnologia
+                <span>que combina contigo.</span>
+            </h1>
+
+            <p>
+                Acessórios eletrónicos para o teu dia a dia.
+                Escolhe os teus produtos favoritos e encomenda
+                diretamente pelo WhatsApp.
+            </p>
+
+            <a href="#produtos" class="botao-principal">
+                Explorar produtos
+                <span aria-hidden="true">→</span>
+            </a>
+
+            <div class="vantagens">
+
+                <div class="vantagem">
+                    <span class="vantagem-icone">✓</span>
+                    <span>Encomenda fácil</span>
+                </div>
+
+                <div class="vantagem">
+                    <span class="vantagem-icone">✓</span>
+                    <span>Contacto direto</span>
+                </div>
+
+                <div class="vantagem">
+                    <span class="vantagem-icone">✓</span>
+                    <span>Pagamento na entrega*</span>
+                </div>
+
+            </div>
+
+            <small class="nota-entrega">
+                *Confirma a disponibilidade e as condições
+                de entrega ao contactar a loja.
+            </small>
+
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+
+            <div class="circulo-decorativo"></div>
+
+            <div class="cartao-destaque">
+
+                <span class="destaque-etiqueta">
+                    RIVESSON STORE MZ
+                </span>
+
+                <div class="destaque-icone">⚡</div>
+
+                <h2>O teu próximo acessório começa aqui.</h2>
+
+                <p>
+                    Descobre, escolhe e encomenda.
+                </p>
+
+                <span class="destaque-linha"></span>
+
+            </div>
+
+            <span class="decoracao decoracao-um">✦</span>
+            <span class="decoracao decoracao-dois">+</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS -->
+    <section class="secao-produtos" id="produtos">
+
+        <div class="titulo-secao">
+
+            <div>
+                <span class="subtitulo">A NOSSA SELEÇÃO</span>
+
+                <h2>Explora os nossos produtos</h2>
+
+                <p>
+                    Encontra os acessórios certos para ti.
+                </p>
+            </div>
+
+            <span class="contador-produtos">
+                3 produtos
+            </span>
+
+        </div>
+
+
+        <div class="produtos-container">
+
+
+            <!-- PRODUTO 1 -->
+            <article class="produto">
+
+                <div class="produto-imagem fundo-azul">
+                    <span class="produto-etiqueta">POPULAR</span>
+                    <img src="{{ url_for('static', filename='images/airpods_pro.png') }}" alt="AirPods Pro">
+                    
+                </div>
+
+                <div class="produto-info">
+
+                    <span class="categoria">Áudio</span>
+
+                    <h3>AirPods Pro</h3>
+
+                    <p class="produto-descricao">
+                        Desfrute de um som incrivel, Conexão bluetooth, design moderno e confortavel, ideal para musicas, chamadas e momentos de lazer.
+                    </p>
+
+                    <div class="produto-rodape">
+
+                        <div class="preco">
+                            <span>Preço</span>
+                            <strong>500 MT</strong>
+                        </div>
+
+                        <a
+                            class="botao-comprar"
+                            href="https://wa.me/258858299689?text=Ol%C3%A1%21%20Quero%20encomendar%20AirPods%20Pro%20por%20500%20MT.%20Podem%20dar-me%20mais%20informa%C3%A7%C3%B5es%3F"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Encomendar AirPods Pro pelo WhatsApp"
+                        >
+                            Comprar <span aria-hidden="true">→</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 2 -->
+            <article class="produto">
+
+                <div class="produto-imagem fundo-roxo">
+                    <span class="produto-etiqueta">LIMITADO</span>
+                    <img src="{{ url_for('static', filename='images/smartwatch.png') }}" alt="Smartwatch">
+
+                </div>
+
+                <div class="produto-info">
+
+                    <span class="categoria">Relógios</span>
+
+                    <h3>Smartwatch T800 Ultra</h3>
+
+                    <p class="produto-descricao">
+                        Estilo moderno, chamadas bluetooth e monitoramento de saúde.
+                    </p>
+
+                    <div class="produto-rodape">
+
+                        <div class="preco">
+                            <span>Preço</span>
+                            <strong>600 MT</strong>
+                        </div>
+
+                        <a
+                            class="botao-comprar"
+                            href="https://wa.me/258858299689?text=Ol%C3%A1%21%20Quero%20encomendar%20o%20Rel%C3%B3gio%20Inteligente%20por%20600%20MT.%20Podem%20dar-me%20mais%20informa%C3%A7%C3%B5es%3F"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Encomendar Relógio Inteligente pelo WhatsApp"
+                        >
+                            Comprar <span aria-hidden="true">→</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUTO 3 -->
+            <article class="produto">
+
+                <div class="produto-imagem fundo-laranja">
+                    <span class="produto-etiqueta">LIMITADO</span>
+                    <img src="{{ url_for('static', filename='images/airbuds.png') }}" alt="AirBuds">
+
+                </div>
+
+                <div class="produto-info">
+
+                    <span class="categoria">Áudio</span>
+
+                    <h3>AirBuds 5</h3>
+
+                    <p class="produto-descricao">
+                        Design moderno, som de qualidade e conexao Bluetooth para ouvires as tuas musicas favoritas.
+                    </p>
+
+                    <div class="produto-rodape">
+
+                        <div class="preco">
+                            <span>Preço</span>
+                            <strong>500 MT</strong>
+                        </div>
+
+                        <a
+                            class="botao-comprar"
+                            href="https://wa.me/258858299689?text=Ol%C3%A1%21%20Quero%20encomendar%20a%20Air%20Buds%20por%20500%20MT.%20Podem%20dar-me%20mais%20informa%C3%A7%C3%B5es%3F"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Encomendar AirBuds 5 pelo WhatsApp"
+                        >
+                            Comprar <span aria-hidden="true">→</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+
+        </div>
+
+        <p class="aviso-produtos">
+            Os preços e a disponibilidade devem ser confirmados
+            diretamente com a loja pelo WhatsApp.
+        </p>
+
+    </section>
+
+
+    <!-- SOBRE NÓS -->
+    <section class="sobre" id="sobre">
+
+        <div class="sobre-simbolo" aria-hidden="true">
+            R<span>.</span>
+        </div>
+
+        <div class="sobre-conteudo">
+
+            <span class="subtitulo">QUEM SOMOS</span>
+
+            <h2>Mais tecnologia. Mais possibilidades.</h2>
+
+            <p>
+                A Rivesson Store Mz é uma loja de eletrónicos
+                em construção, criada com o objetivo de aproximar
+                os clientes da tecnologia e dos acessórios
+                que facilitam o dia a dia.
+            </p>
+
+            <p>
+                Queremos proporcionar uma experiência de compra
+                simples, com contacto direto pelo WhatsApp,
+                esclarecimento de dúvidas e encomendas fáceis.
+            </p>
+
+            <a href="#contactos" class="botao-secundario">
+                Fala connosco
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTOS -->
+    <section class="contactos" id="contactos">
+
+        <span class="subtitulo">ESTAMOS AQUI PARA TI</span>
+
+        <h2>Vamos conversar?</h2>
+
+        <p>
+            Tens dúvidas sobre um produto ou queres fazer uma
+            encomenda? Entra em contacto connosco pelo WhatsApp.
+        </p>
+
+        <a
+            href="https://wa.me/258858299689?text=Ol%C3%A1%21%20Entrei%20em%20contacto%20atrav%C3%A9s%20da%20Rivesson%20Store%20Mz.%20Gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."
+            class="contacto-whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span class="whatsapp-icone" aria-hidden="true">W</span>
+
+            <span class="contacto-texto">
+                <small>Fala connosco pelo WhatsApp</small>
+                <strong>+258 85 829 9689</strong>
+            </span>
+
+            <span class="contacto-seta" aria-hidden="true">→</span>
+        </a>
+
+        <p class="contacto-nota">
+            Clica no número para abrir o WhatsApp.
+        </p>
+
+    </section>
+
+</main>
+
+
+<!-- RODAPÉ -->
+<footer class="rodape">
+
+    <a href="#inicio" class="rodape-logo">
+        RIVESSON STORE MZ
+    </a>
+
+    <p>
+        Tecnologia que simplifica a tua vida.
+    </p>
+
+    <div class="rodape-links">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contactos">Contactos</a>
+    </div>
+
+    <div class="rodape-linha"></div>
+
+    <p class="copyright">
+        &copy; 2026 Rivesson Store Mz.
+        Todos os direitos reservados.
+    </p>
+
+</footer>
+
+</body>
+</html>
+
